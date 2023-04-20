@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cron Parser</title>
+  </head>
+  <body style="display: flex; flex-direction: column; align-items: center; color: white; background-color: black;">
+    
+    <h1>Orozkul Oktonov's Technical Task - Cron Expression Parser</h1>
+    
+    <form style="width: 60%" id="cronForm">
+        <input style="width: 60%; height: 40px; font-size: 16px;" type="text" id="cronInput" placeholder="Type cron to parse">
+        <button style="height: 40px; font-size: 16px;" type="submit" id="parseButton">Parse</button>
+    </form>
+
+    <div style="display: flex; flex-direction: column; align-items: start; width: 60%">
+      <h2>minute <span id="minute" style="color: red;"></span></h2>
+      <h2>hour <span id="hour" style="color: red;"></span></h2>
+      <h2>day of month <span id="dayOfMonth" style="color: red;"></span></h2>
+      <h2>month <span id="month" style="color: red;"></span></h2>
+      <h2>day of week <span id="dayOfWeek" style="color: red;"></span></h2>
+      <h2>command <span id="command" style="color: red;"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
